@@ -9,5 +9,8 @@ void main(List<String> arguments) {
   print(myLuckyNumber);
   myLuckyNumber = "it is possible";
   print(myLuckyNumber);
+  var myFavoriteNumber = 42;
+  // myFavoriteNumber = "hello"; --> this is impossible
+  print(myFavoriteNumber);
   print('Hello world: ${hello_world.calculate()}!');
 }
