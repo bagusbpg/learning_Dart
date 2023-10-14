@@ -7,5 +7,7 @@ void main(List<String> arguments) {
   print(myLuckyNumber); // should be null
   myLuckyNumber = 7;
   print(myLuckyNumber);
+  myLuckyNumber = "it is possible";
+  print(myLuckyNumber);
   print('Hello world: ${hello_world.calculate()}!');
 }
