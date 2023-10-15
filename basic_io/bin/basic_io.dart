@@ -19,4 +19,9 @@ void main(List<String> arguments) {
   
   String piAsString = 3.14.toStringAsFixed(2);
   print('$piAsString has type ${piAsString.runtimeType}');
+
+  print('1 + 1 = ${1+1}');
+
+  print(r'This $ sign not an interpolation');
+  print('Hi \u2665');
 }
